@@ -1,22 +1,19 @@
 /* 
  * Theme: Codeon - one page responsive template built for humans.
  * Version: v1.1
- * Author:  Design_mylife
- * Created on : May 31, 2014, 10:42:39 AM(india)
- * file: custome js(editable)
  */
 
 /* ==============================================
 main flex slider
 =============================================== */
-$(window).load(function() {
-    $('.main-flex-slider').flexslider({
-        slideshowSpeed: 5000,
-        directionNav: false,
-        animation: "fade",
-        controlNav:false
-    });
-});
+// $(window).load(function() {
+//     $('.main-flex-slider').flexslider({
+//         slideshowSpeed: 5000,
+//         directionNav: false,
+//         animation: "fade",
+//         controlNav:false
+//     });
+// });
 
 /* ==============================================
 portfolio gallery slide
