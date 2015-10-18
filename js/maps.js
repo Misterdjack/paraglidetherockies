@@ -15,13 +15,13 @@ function initialize() {
 
     bellyache = new google.maps.LatLng(39.659984, -106.657728);
 
-    loveland = new google.maps.LatLng(39.663705, -105.879221);
+    summit = new google.maps.LatLng(39.646679, -106.122423);
 
     // wolcott = new google.maps.LatLng(39.700322, -106.633504);
 
     var mapOptions = {
         zoom: 9,
-        center: loveland,
+        center: summit,
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         scrollwheel: false,
         draggable: true
