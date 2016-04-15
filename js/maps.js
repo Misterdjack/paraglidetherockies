@@ -7,8 +7,7 @@ var bellyache;
 var wolcott;
 var map;
 var marker;
-var marker2;
-var marker3;
+
 
 function initialize() {
     lz = new google.maps.LatLng(39.667552, -106.645043);
