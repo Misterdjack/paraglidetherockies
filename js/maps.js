@@ -14,13 +14,13 @@ function initialize() {
 
     bellyache = new google.maps.LatLng(39.659984, -106.657728);
 
-    summit = new google.maps.LatLng(39.646679, -106.122423);
+    gore = new google.maps.LatLng(39.640446, -106.207475);
 
     // wolcott = new google.maps.LatLng(39.700322, -106.633504);
 
     var mapOptions = {
         zoom: 9,
-        center: summit,
+        center: gore,
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         scrollwheel: false,
         draggable: true
@@ -31,6 +31,12 @@ function initialize() {
 
     var infowindow = new google.maps.InfoWindow({
         content: contentString
+    });
+
+    var contentString2 = '<p>Launch site and best place for friends and family to watch</p>';
+
+    var infowindow2 = new google.maps.InfoWindow({
+        content: contentString2
     });
 
     marker = new google.maps.Marker({
@@ -53,6 +59,10 @@ function initialize() {
 
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
+    });
+
+    google.maps.event.addListener(marker2, 'click', function () {
+        infowindow2.open(map, marker2);
     });
 }
 
